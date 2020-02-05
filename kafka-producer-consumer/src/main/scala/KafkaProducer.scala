@@ -20,7 +20,7 @@ object KafkaProducer extends App {
   val producerSink: Future[Done] =
     Source(1 to 10)
       .map(_.toString)
-      .map(value => new ProducerRecord[String, String]("test2", "Record:: " + value))
+      .map(value => new ProducerRecord[String, String]("test3", "Record:: " + value))
       .runWith(Producer.plainSink(producerSettings))
   println("************ Message produced ************")
 }

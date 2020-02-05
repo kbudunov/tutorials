@@ -1,3 +1,4 @@
+/*
 
 import java.util.Properties
 import java.util.concurrent.Executors
@@ -50,4 +51,4 @@ object KafkaClient {
       streams.get("spawnpoints").get.foreach(SpawnService.cycle(system))
     } onFailure { case ec => println(ec) }
   }
-} 
+} */

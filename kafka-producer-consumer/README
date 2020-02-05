@@ -1,0 +1,4 @@
+1. Use Conduktor as kafka GUI client.
+2. Install Docker on desktop
+3. Install dockerStation
+4. Create container instances with docker-compose.yml (set correct ip address)
