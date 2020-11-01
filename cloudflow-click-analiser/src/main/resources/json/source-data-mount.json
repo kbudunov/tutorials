@@ -1,0 +1,9 @@
+{
+  "deviceId": "c75cb448-df0e-4692-8e06-0321b7703988",
+  "timestamp": 1495545346279,
+  "measurements": {
+    "power": -99.9,
+    "rotorSpeed": 23.4,
+    "windSpeed": 100.1
+  }
+}
